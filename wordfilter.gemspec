@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "wordfilter"
-  s.version = "1.0.2"
+  s.version = "1.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Muhammad Rahmatullah"]
@@ -27,23 +27,16 @@ Gem::Specification.new do |s|
     "Rakefile",
     "config/blacklist.yml",
     "config/international.yml",
-    "lib/obscenity.rb",
-    "lib/obscenity/active_model.rb",
-    "lib/obscenity/base.rb",
-    "lib/obscenity/config.rb",
-    "lib/obscenity/error.rb",
-    "lib/obscenity/rack.rb",
-    "lib/obscenity/rspec_matcher.rb",
-    "lib/obscenity/version.rb",
-    "obscenity.gemspec",
-    "test/helper.rb",
-    "test/static/422.html",
-    "test/test_active_model.rb",
-    "test/test_base.rb",
-    "test/test_config.rb",
-    "test/test_obscenity.rb",
-    "test/test_rack.rb",
-    "test/test_version.rb"
+    "lib/badwords.json",
+    "lib/wordfilter.js",
+    "lib/wordfilter.php",
+    "lib/wordfilter.py",
+    "lib/wordfilter.rb",
+    "wordfilter.gemspec",
+    "test/wordfilter_test.js",
+    "test/wordfilter_test.php",
+    "test/wordfilter_test.py",
+    "test/wordfilter_test.rb"
   ]
   s.homepage = "http://github.com/rahmatullah5/worldfilter"
   s.licenses = ["MIT"]
